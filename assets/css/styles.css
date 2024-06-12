@@ -109,7 +109,8 @@ img {
   color: var(--second-color);
   text-align: center;
   margin-bottom: 1.5rem;
-  font-size: 3rem;
+  font-size: 6rem;
+  width: 100%;
 }
 
 
@@ -201,7 +202,7 @@ span.coming {
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
   transition: color .4s;
-  font-size: var(--h3-font-size);
+  font-size: 1.6rem;
 }
 
 .nav__link:hover {
@@ -223,7 +224,7 @@ span.coming {
 
 .nav__social-link {
   color: var(--first-color);
-  font-size: 2rem;
+  font-size: 3rem;
   transition: color .4s
   
 }
@@ -294,7 +295,7 @@ h1 {
 
 .home__text{
   font-size: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4.5rem;
 }
 
 .home__image {
@@ -482,7 +483,7 @@ h1 {
 
 .favorites__description{
   font: var(--body-font);
-  font-size: var(--h3-font-size);
+  font-size: 2rem;
   color: var(--blue-color);
 }
 
@@ -913,7 +914,7 @@ h1 {
   }
   
   .section__title{
-    font-size: var(--h1-font-size);
+    font-size: 5rem;
   }
 
   .home__title{
