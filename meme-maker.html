@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>COCK MEME MAKER</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <!--=============== FAVICON ===============-->
+        <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mememaker-assets/style/global.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo-text"><a href="index.html">COCK</a></div>
+        </div>
+        <h1>COCK MEME MAKER</h1>
+        <div class="main-view-wrap">
+            <div class="main-view">
+                <div class="left-view">
+                    <canvas id="mainCanvas"></canvas>
+                    <div class="light-button" id="reset-btn">
+                        <img src="mememaker-assets/img/refresh.png">
+                        RESET COCK
+                    </div>
+                    <div class="light-button" id="random-btn">
+                        <img src="mememaker-assets/img/dice.png">
+                        RANDOM GENERATE
+                    </div>
+                    <div class="dark-button" id="download-btn">
+                        <img src="mememaker-assets/img/download.png">
+                        DOWNLOAD
+                    </div>
+                    <div class="nav__social">
+                        <a href="http://x.com/sol_cock" class="nav__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sol_cock/" target="_blank" class="nav__social-link">
+                            <i class="ri-instagram-fill"></i>
+                         </a>
+                        <a href="http://t.me/solcock" class="nav__social-link">
+                            <i class="ri-telegram-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="border-bar"></div>
+                <div class="right-view">
+                    <div class="header">Make Your Own Cock!</div>
+                    
+                    <div class="section-header">COCK</div>
+                    <div class="selector">
+                        <div class="dir-button" id="body-left">◀</div>
+                        <div class="parts-wrap">
+                            <div class="parts-list" id="body-list">
+                            </div>
+                        </div>
+                        <div class="dir-button" id="body-right">▶</div>
+                    </div>
+                    
+                    <div class="section-header">HEAD</div>
+                    <div class="selector">
+                        <div class="dir-button" id="hat-left">◀</div>
+                        <div class="parts-wrap">
+                            <div class="parts-list" id="hat-list">
+                            </div>
+                        </div>
+                        <div class="dir-button" id="hat-right">▶</div>
+                    </div>
+                    
+                    <div class="section-header">TOP</div>
+                    <div class="selector">
+                        <div class="dir-button" id="top-left">◀</div>
+                        <div class="parts-wrap">
+                            <div class="parts-list" id="acc-list">
+                            </div>
+                        </div>
+                        <div class="dir-button" id="top-right">▶</div>
+                    </div>
+
+                    <div class="section-header">BOTTOM</div>
+                    <div class="selector">
+                        <div class="dir-button" id="bottom-left">◀</div>
+                        <div class="parts-wrap">
+                            <div class="parts-list" id="bottom-list">
+                            </div>
+                        </div>
+                        <div class="dir-button" id="bottom-right">▶</div>
+                    </div>
+                    
+                    <div class="section-header">BACKGROUND</div>
+                    <div class="selector">
+                        <div class="dir-button" id="bg-left">◀</div>
+                        <div class="parts-wrap">
+                            <div class="parts-list" id="bg-list">
+                            </div>
+                        </div>
+                        <div class="dir-button" id="bg-right">▶</div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="mememaker-assets/scripts/script.js"></script>
+    </body>
+</html>
